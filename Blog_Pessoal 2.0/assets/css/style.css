@@ -1,0 +1,110 @@
+/*Estilos da página index.html*/
+
+.p1{
+    font-size: 25px;
+}
+.p2{
+    font-size: 22px;
+}
+
+.justificado{
+    text-align: justify;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li{
+    display: inline;
+    padding: 20px;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+#menu li a{
+    text-decoration: none;
+}
+
+#menu li a:hover{
+    color: #715448;
+}
+
+.pad{
+    padding: 25px;
+}
+
+.border{
+    border-radius: 50%;
+}
+
+.center{
+    text-align: center;
+}
+
+.tamanho{
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+}
+
+.fonte{
+    font-family: 'Courier New';
+    color: white;
+}
+
+.moldura{
+    border-style: groove;
+}
+
+.fundo{
+    background: #1e1e1e;
+}
+
+.padleft-30{
+    padding-left: 30px;
+}
+
+.padright-30{
+    padding-right: 30px;
+}
+
+.letraMusica{
+    font-style: italic;
+}
+
+.azulEscuro{
+    color: #0e78c0;
+}
+
+.azulClaro{
+    color: #5fa4c7;
+}
+.mesmaLinha{
+    display: inline;
+}
+.laranja{
+    color: #b39684;
+}
+.padleft-60{
+    padding-left: 60px;
+}
+.padleft-90{
+    padding-left: 90px;
+}
+.verde{
+    color: rgb(70, 104, 2);
+}
+/*Estilos da página contato.html*/
+
+.margem-left50{
+    margin-left: 50px;
+}
+
+.efeitoBotao:hover{
+    transform: scale(1.2);
+    color: #715448;
+}

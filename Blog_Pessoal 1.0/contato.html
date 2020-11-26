@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="fundo">
+    <ul id="menu" class="fonte">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contato.html">Contato</a></li>
+    </ul>
+
+    <h1 class="center fonte">Entre em contato comigo</h1>
+
+    <div class="container pad fonte">
+        <form class="pad">
+            <h2>Mande uma mensagem</h2>
+            <label for="nome">Nome:</label>
+            <br>
+            <input type="text" id="nome" onkeyup="validaNome()">
+            <div id="txtNome"></div>
+            <br> 
+            <label for="email">E-mail:</label>
+            <br>
+            <input type="email" id="email" onkeyup="validaEmail()">
+            <div id="txtEmail"></div>
+            <br>   
+            <label for="assunto">Assunto:</label>
+            <br>
+            <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
+            <div id="txtAssunto"></div>
+            <br>
+            <button class="efeitoBotao" onclick="enviar()">Enviar</button>
+    
+        </form>
+        <div class="margem-left50 pad">
+            <h2>Endereço</h2>
+            <p>Rua Maria Zintl,114</p>
+            <p>Guarulhos - SP</p>
+        
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.3466861898974!2d-46.52649508528692!3d-23.44795598
+            473937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef530cf5c7e9f%3A0xfaf172649e70266c!2sR.%20Maria%20Zintl%2
+            C%20114%20-%20Jardim%20Cocaia%2C%20Guarulhos%20-%20SP%2C%2007121-390!5e0!3m2!1spt-BR!2sbr!4v1605885188015!5m2!1spt-BR!2sbr"
+             width="450" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" onmousemove="mapaZoom()" onmouseout="mapaNormal()" id="mapa"></iframe>
+        </div>
+    </div>
+    <hr>
+    <footer class="fonte">
+        <div class="container">
+            <a class="efeitoBotao" href="https://github.com/CarlaCarvaLima" target="_blank"> <img class="tamanho" src="assets/img/IconeGithub.png" alt="IconeGithub"></a>
+            <a class="efeitoBotao" href="https://www.linkedin.com/in/carla-carvalho-de-lima-65b92bbb/" target="_blank"><img class="tamanho" src="assets/img/IconeLinkedin .png" alt="IconeLinkedin">  </a>
+        </div>
+        <p class="center">Todos os direitos reservados: Carla Lima &copy</p> 
+    </footer>
+
+    <script src="assets/js/script.js"></script>   
+   
+</body>
+</html>
